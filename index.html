@@ -15,11 +15,15 @@
 
 <body class=" ">
     <header>
-        <div class="fixed w-full mx-auto flex justify-between items-center py-4 px-6">
-            <div class="text-3xl text-blue-900 font-bold ">SC</div>
-            <nav>
+        <div class="fixed w-full mx-auto flex justify-between items-center py-4 px-6  ">
+            <div class="text-3xl text-blue-900  font-bold ">
+                <a href="#home">SC</a>
+
+            </div>
+            <nav class="hidden md:flex">
+        
                 <a href="#home"
-                    class="px-4 text-lg text-white bg-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Home</a>
+                    class=" px-4 text-lg text-center text-white bg-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Home</a>
                 <a href="#about"
                     class="px-4 text-lg text-white bg-blue-900 hover:bg-blue-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">About
                     Me</a>
@@ -37,7 +41,20 @@
                     class="px-4 text-lg text-white bg-blue-900 hover:bg-blue-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Contact</a>
 
             </nav>
+            <button class="md:hidden text-black hover:bg-blue-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 " id="menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
+        <nav id="mobile-menu" class="md:hidden px-4 py-8 hidden bg-blue-200 shadow-lg">
+            <a href="#home" class="block px-4 py-2 mt-8 text-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Home</a>
+            <a href="#about" class="block px-4 py-2 text-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">About Me</a>
+            <a href="#skills" class="block px-4 py-2 text-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Skills</a>
+            <a href="#experiences" class="block px-4 py-2 text-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Experiences</a>
+            <a href="#projects" class="block px-4 py-2 text-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Projects</a>
+            <a href="#resume" class="block px-4 py-2 text-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Resume</a>
+            <a href="#blog" class="block px-4 py-2 text-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Blog</a>
+            <a href="#contact" class="block px-4 py-2 text-blue-900 hover:bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Contact</a>
+        </nav>
 
     </header>
     <main>
@@ -82,31 +99,31 @@
                 <div class="flex justify-start space-x-4 px-4">
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/js.png" alt="JavaScript" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">JavaScript</p>
+                        <span class="text-center text-black">JavaScript</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/rj.png" alt="React" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">React</p>
+                        <span class="text-center text-black">React</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/nj.png" alt="Node.js" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black ">Node.js</p>
+                        <span class="text-center text-black ">Node.js</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/tc.png" alt="Tailwind CSS" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">Tailwind CSS</p>
+                        <span class="text-center text-black">Tailwind CSS</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/ht.png" alt="HTML5" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">HTML5</p>
+                        <span class="text-center text-black">HTML5</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/fg.png" alt="CSS3" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">figma</p>
+                        <span class="text-center text-black">figma</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/bt.png" alt="CSS3" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">Bootstrap</p>
+                        <span class="text-center text-black">Bootstrap</span>
                     </div>
                     <!-- Add more skills as needed -->
                 </div>
@@ -118,31 +135,31 @@
 
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/nm.png" alt="JavaScript" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">npm</p>
+                        <span class="text-center text-black">npm</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/st.png" alt="React" class="w-16 h-18 mb-2">
-                        <p class="text-center text-black">springboot</p>
+                        <span class="text-center text-black">springboot</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/gh.png" alt="Node.js" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">GitHub</p>
+                        <span class="text-center text-black">GitHub</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/ml.png" alt="CSS3" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">mysql</p>
+                        <span class="text-center text-black">mysql</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/jc.png" alt="Tailwind CSS" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">java</p>
+                        <span class="text-center text-black">java</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/pm.png" alt="HTML5" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">postman</p>
+                        <span class="text-center text-black">postman</span>
                     </div>
                     <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
                         <img src="image/dc.png" alt="CSS3" class="w-18 h-16 mb-2">
-                        <p class="text-center text-black">Docker</p>
+                        <span class="text-center text-black">Docker</span>
                     </div>
                     <!-- Add more skills as needed -->
                 </div>
@@ -186,7 +203,7 @@
                         <h3 class="text-xl font-bold text-black">Recipe search webapp</h3>
                         <p class="mt-2 text-gray-700">Hear you can search for your favorites recipes</p>
                         <p class="mt-2 text-sm text-black font-bold">Technologies: JavaScript, tailwindcss</p>
-                        <a href="https://github.com/yourusername/project" class="mt-4 inline-block">
+                        <a href="https://github.com/1saptarshi/recipe_search_web_app" class="mt-4 inline-block">
                             <button
                                 class="bg-blue-500 font-bold hover:bg-blue-600 text-white px-6 py-3 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                                 View on GitHub
@@ -194,6 +211,8 @@
                         </a>
                     </div>
                 </div>
+
+                 
 
 
 
@@ -326,6 +345,12 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function () {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
 </body>
 
 </html>
