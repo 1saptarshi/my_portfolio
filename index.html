@@ -421,14 +421,17 @@
                 <h2 class="text-3xl text-center text-white font-bold mb-8">Blog</h2>
                 <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     <!-- Blog Post 1 -->
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-2">Stop Using localStorage!</h3>
-                        <p class="text-gray-600 mb-4">Published on Dec 22, 2023</p>
-                        <p class="text-gray-700 mb-4">The title is not clickbait, the message is abrupt “Stop Using
-                            localStorage!” there is no ambiguity here and we are not holding hands and singing Kumbaya
-                            to soften the blow.</p>
-                        <a href="https://medium.com/@julienetienne/stop-using-localstorage-64a6d6805da8" class="text-blue-500 hover:text-blue-700">Read More &rarr;</a>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-2xl font-semibold mb-2">GraphQL vs REST: Which One to Choose in 2024?</h3>
+                        <p class="text-gray-600 mb-4">Published on jun 11 , 2024</p>
+                        <p class="text-gray-700 mb-4">A Comprehensive Comparison for Modern APIs
+
+                            Discover the Best Fit for Your Project
+                             </p>
+                        <a href="https://medium.com/@1saptarshichowdhury/graphql-vs-rest-which-one-to-choose-in-2024-ae2b31a138ca" class="text-blue-500 hover:text-blue-700">Read More &rarr;</a>
                     </div>
+                    
+                     
 
                     <!-- Add more blog posts as needed -->
                 </div>
@@ -494,30 +497,7 @@
                         class="fa-brands fa-x-twitter"></i> Twitter</a>
             </div>
         </div>
-        <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function () {
-                document.getElementById('contact-form').addEventListener('submit', function (event) {
-                    event.preventDefault();
-        
-                    // Collect form data
-                    const name = document.getElementById('name').value;
-                    const email = document.getElementById('email').value;
-                    const message = document.getElementById('message').value;
-        
-                    // Send email using EmailJS
-                    emailjs.send("service_hk17qt4", "template_9cxfjva", {
-                        from_name: name,
-                        from_email: email,
-                        message: message
-                    })
-                    .then(function (response) {
-                        alert('Message sent successfully!');
-                    }, function (error) {
-                        alert('Failed to send the message, please try again.');
-                    });
-                });
-            });
-            </script>
+        <script type="text/javascript"></script>
     </footer>
     <script>
         document.getElementById('menu-button').addEventListener('click', function () {
